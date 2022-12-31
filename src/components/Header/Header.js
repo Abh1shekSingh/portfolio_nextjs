@@ -3,7 +3,7 @@ import { SocialIcon } from 'react-social-icons';
 import {motion} from 'framer-motion'
 function Header() {
   return (
-    <header className='flex flex-row sticky top-0 justify-between mx-w-7xl p-5 mx-auto xl:items-center'>
+    <header className='z-20 bg-[#E1ECE8] flex flex-row sticky top-0 justify-between max-w-7xl p-5 mx-auto xl:items-center'>
       <motion.div 
        initial ={{
           x: -100,
@@ -22,9 +22,9 @@ function Header() {
         }}
 
        className='flex flex-row items-center'>
-        <SocialIcon url="https://linkedin.in/craftingbugs" fgColor='grey' bgColor='transparent' />
         <SocialIcon url="https://instagram.com/craftingbugs" fgColor='grey' bgColor='transparent' />
-        <SocialIcon url="https://github.com/craftingbugs" fgColor='grey' bgColor='transparent' />
+        <SocialIcon url="https://www.linkedin.com/in/craftingbugs/" fgColor='grey' bgColor='transparent' />
+        <SocialIcon url="https://github.com/Abh1shekSingh" fgColor='grey' bgColor='transparent' />
       </motion.div>
       
       <motion.div 

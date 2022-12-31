@@ -5,10 +5,10 @@ import Container from '@mui/material/Container';
 
 export const Layout = ({children}) => {
   return (
-    <Container>
+    <div >
         <Header />
         <main>{children}</main>
         {/* <Footer /> */}
-    </Container>
+    </div>
   )
 }
