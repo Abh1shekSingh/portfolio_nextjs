@@ -21,7 +21,7 @@ export const work = [
         duration: 'March 2022 - May 2022',
         image: '/assets/GSSOC22.png',
         points: [
-            'Mostly Worked on Frontend part, fixing UI?UX design issues.',
+            'Mostly Worked on Frontend part, fixing UI/UX design issues.',
             'Written Backend Authentication logic using Firebase for most of the websites',
             'Secured AIR 8 in GSSOC 2022',
         ]
