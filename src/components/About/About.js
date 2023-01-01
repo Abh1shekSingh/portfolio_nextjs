@@ -17,6 +17,7 @@ function About() {
           opacity: 1,
           y: 0,
         }}
+        viewport ={{once:true}}
         transition ={{
           duration: 1.5,
           delay: 0.5,
