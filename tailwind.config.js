@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sacramento: ['Sacramento', "cursive"],
+        merriweather: ['Merriweather', "sans-serif"],
       },
     },
   },

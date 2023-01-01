@@ -9,7 +9,7 @@ function BackgroundCircle() {
     animate={{
         scale:[1,2,2,3,1],
         opacity: [0.1,0.2,0.7,0.8,1],
-        borderRadius: ['20%', '40%', '60%', '80%', '100%'],
+        borderRadius: ['20%', '40%', '60%', '40%', '100%'],
     }}
     transition = {{
         duration: 2.5,

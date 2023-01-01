@@ -12,10 +12,10 @@ export default function Home() {
         <title>Craftingbugs | Developer</title>
       </Head>
       <Layout>
-        <section id = 'hero' className="snap-start">
+        <section id = 'hero' className="">
           <Hero />
         </section>
-        <section id = 'about' className="snap-center">
+        <section id = 'about' className="">
           <About />
         </section>
         
