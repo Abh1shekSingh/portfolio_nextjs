@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import myself from '../../../public/assets/mee.png'
 function About() {
   return (
-    <div className='h-screen text-center md:text-left md:flex-row max-w-7xl px-10 mx-auto '>
+    <div className=' text-center md:text-left md:flex-row max-w-7xl px-10 mx-auto '>
         <h3 className='tracking-[10px] uppercase font-merriweather  text-xl text-[#3F9D86] '>
             Me, Myself and I
         </h3>

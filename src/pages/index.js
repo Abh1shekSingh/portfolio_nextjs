@@ -18,9 +18,11 @@ export default function Home() {
         <section id = 'about' className="">
           <About />
         </section>
+        <section id= 'work'>
+          <Work />
+        </section>
         
-        {/* <Work />
-        <Project /> */}
+        {/*<Project /> */}
       </Layout>
     </div>
   )
