@@ -7,7 +7,7 @@ import {Layout} from "../layout/Layout"
 import Head from "next/head"
 export default function Home() {
   return (
-    <div className="bg-[#E1ECE8] h-screen overflow-scroll snap-y snap-mandatory z-0">
+    <div className="bg-[#f4f4f4] h-screen overflow-scroll snap-y snap-mandatory z-0">
       <Head>
         <title>Craftingbugs | Developer</title>
       </Head>

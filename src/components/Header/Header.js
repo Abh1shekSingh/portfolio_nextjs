@@ -3,7 +3,7 @@ import { SocialIcon } from 'react-social-icons';
 import {motion} from 'framer-motion'
 function Header() {
   return (
-    <header className='z-20 bg-[#E1ECE8] flex flex-row sticky top-0 justify-between max-w-7xl p-5 mx-auto xl:items-center'>
+    <header className='z-20 bg-[transparent] flex flex-row sticky top-0 justify-between max-w-7xl p-5 mx-auto xl:items-center backdrop-blur-sm'>
       <motion.div 
        initial ={{
           x: -100,

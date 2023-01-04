@@ -10,6 +10,7 @@ module.exports = {
       fontFamily: {
         sacramento: ['Sacramento', "cursive"],
         merriweather: ['Merriweather', "sans-serif"],
+        montserrat: ['Montserrat', "sans-serif"],
       },
     },
   },

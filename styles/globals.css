@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;600;700&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800;900&family=Sacramento&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,4 +7,24 @@
   .heroButton {
     @apply px-6 py-2 mx-2 rounded-full uppercase border border-[#7e7e7e]/20 text-xs text-[#7e7e7e]/50 tracking-widest hover:text-[#3F9D86]/100  hover:border-[#3F9D86]/100 transition-all;
   }
+}
+
+:root {
+  --primary: #fefefe;
+  --secondary: #3F9D86;
+}
+
+*::-webkit-scrollbar {
+  width: 15px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--primary);
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--secondary);
+  border-radius: 1px;
+  border: 3px solid var(--primary);
 }
