@@ -14,8 +14,8 @@ export const work = [
         ]
     },
     {
-        id: 1,
-        title: 'Gssoc',
+        id: 2,
+        title: "Gssoc'22",
         role: '@ Open Source Contributor',
         techStack: ['Frontend', 'UI/UX', 'Backend'],
         duration: 'March 2022 - May 2022',
@@ -24,6 +24,19 @@ export const work = [
             'Mostly Worked on Front-End part and improvising UI/UX designs of various projects',
             'Written Back-End Authentication logic using Firebase for most of the websites',
             'Secured AIR 8 in GSSOC 2022',
+        ]
+    },
+    {
+        id: 2,
+        title: 'Android Developer Portfolio',
+        role: '@ Freelancer',
+        techStack: ['Frontend', 'UI/UX'],
+        duration: '',
+        image: '/assets/Sardar Ji.png',
+        points: [
+            'Designed and Developed a portfolio website for an Android Developer',
+            'Used NextJS for Front-End',
+            'The website is fully responsive and SEO friendly',
         ]
     }
 ]

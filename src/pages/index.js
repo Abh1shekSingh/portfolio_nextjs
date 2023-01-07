@@ -21,6 +21,9 @@ export default function Home() {
         <section id= 'work'>
           <Work />
         </section>
+        <section id="project">
+          <Project />
+        </section>
         
         {/*<Project /> */}
       </Layout>

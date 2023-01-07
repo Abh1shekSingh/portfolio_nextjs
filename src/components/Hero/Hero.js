@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 function Hero() {
   const [text, count] = useTypewriter({
-    words: ['Developer', 'Programmer', 'Abhishek'],
+    words: ['Developer', 'Photographer', 'Abhishek'],
     loop: 1,
     delaySpeed: 1000,
   })
@@ -17,10 +17,10 @@ function Hero() {
       <Image src={dev} alt='Developer' className='w-32 relative mx-auto object-cover' />
       <div className='z-20'>
         <h1 className='text-[#7E7E7E] opacity-[50%] text-sm uppercase p-2 tracking-[10px]'>Web Developer</h1>
-        <h1 className='text-7xl pt-2 font-sacramento font-semibold text-[#3F9D86]'>
+        <h1 className='text-7xl pt-2 font-sacramento font-semibold text-[#484B6A]'>
           <span>I&apos;m {text}</span>
           <Cursor 
-            cursorColor='#3F9D86' 
+            cursorColor='#484B6A' 
           />
         </h1>  
         <div className=''>
